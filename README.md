@@ -292,3 +292,10 @@ The consumer expects JSON messages with this structure:
 - **Single consumer**: Receives all messages from the topic
 - **Multiple consumers**: Messages are load-balanced across consumers in the same group
 - **Offset management**: Automatically tracks which messages have been processed
+
+
+## Related Services
+
+- **Producer**: [book-loan-service](../book-loan-service) - Publishes messages to Kafka
+- **Jaeger**: http://localhost:16686 - Distributed tracing UI
+- **Kafka**: localhost:9092 - Message broker
